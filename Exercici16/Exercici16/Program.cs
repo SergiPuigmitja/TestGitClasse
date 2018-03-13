@@ -22,12 +22,21 @@ namespace Exercici16
             {
                 Solitario();
             }
+            else if (opcio == "3")
+            {
+                Blackjack();
+            }
 
         }
+
 
         private static void Solitario()
         {
             Console.WriteLine("ESTAS JUGANT AL SOLITARIO...");
+        }
+        private static void Blackjack()
+        {
+            Console.WriteLine("ESTAS JUGANT AL BLACKJACK...");
         }
 
         private static void Buscamines()
