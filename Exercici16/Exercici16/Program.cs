@@ -14,11 +14,20 @@ namespace Exercici16
             MostrarOpcions();
             opcio = Console.ReadLine();
 
-            if(opcio == "1")
+            if (opcio == "1")
             {
                 Buscamines();
             }
+            else if (opcio == "3")
+            {
+                Blackjack();
+            }
 
+        }
+
+        private static void Blackjack()
+        {
+            Console.WriteLine("ESTAS JUGANT AL BLACKJACK...");
         }
 
         private static void Buscamines()
