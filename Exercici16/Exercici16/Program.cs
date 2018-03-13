@@ -14,11 +14,20 @@ namespace Exercici16
             MostrarOpcions();
             opcio = Console.ReadLine();
 
-            if(opcio == "1")
+            if (opcio == "1")
             {
                 Buscamines();
             }
+            else if (opcio == "2")
+            {
+                Solitario();
+            }
 
+        }
+
+        private static void Solitario()
+        {
+            Console.WriteLine("ESTAS JUGANT AL SOLITARIO...");
         }
 
         private static void Buscamines()
