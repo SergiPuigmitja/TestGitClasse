@@ -14,7 +14,18 @@ namespace Exercici16
             MostrarOpcions();
             opcio = Console.ReadLine();
 
+            if(opcio == "1")
+            {
+                Buscamines();
+            }
+
         }
+
+        private static void Buscamines()
+        {
+            Console.WriteLine("ESTAS JUGANT AL BUSCAMINES...");
+        }
+
         private static void MostrarOpcions()
         {
             Console.WriteLine("Opcio {0}: {1}", 1, "Buscaminas");
